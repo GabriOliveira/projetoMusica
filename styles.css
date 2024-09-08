@@ -6,7 +6,7 @@
 body {
   font-family: "Kanit", sans-serif; /* Define a fonte padrão */
 
-  background-image: url("https://getwallpapers.com/wallpaper/full/c/4/e/898550-beautiful-electro-music-wallpaper-1920x1080.jpg");
+  background-image:url('images/fundobdy.jpg');
   backdrop-filter: blur(5px);
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */

@@ -32,33 +32,20 @@ function pesquisar() {
   if (input == "") {
     resultados = `
     <div class="msg-erro">
-    <h3 >Digite um dos generos:</h3>
-    <ul>
-  <li>Pop</li>
-  <li>Hip-Hop</li>
-  <li>Rock</li>
-</ul>
+        <h3> Deu erro</h3>
+
 </div>`;
   }
   if (input == " ") {
     resultados = `<div class="msg-erro">
-    <h3 >Digite um dos generos:</h3>
-    <ul>
-  <li>Pop</li>
-  <li>Hip-Hop</li>
-  <li>Rock</li>
-</ul>
+        <h3> Deu erro</h3>
+
 </div>
     `;
   }
   if (!resultados) {
     resultados = `<div class="msg-erro">
-    <h3 >Digite um dos generos:</h3>
-    <ul>
-  <li>Pop</li>
-  <li>Hip-Hop</li>
-  <li>Rock</li>
-</ul>
+    <h3> Deu erro</h3>
 </div>
     `;
   }
